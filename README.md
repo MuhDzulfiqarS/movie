@@ -68,7 +68,7 @@ Selain itu terdapat Arsitektur yang digunakan :
 ## Screenshots
 
 ### 1. Halaman Login
-![Halaman Login](assets/img/login_aldmic.png)
+![Halaman Login](public/assets/img/login_aldmic.png)
 
 ### 2. Halaman Daftar Film
 
