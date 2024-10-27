@@ -27,11 +27,11 @@ Aplikasi ini mengikuti arsitektur **MVC (Model-View-Controller)**, yang merupaka
 
 - **Model**: Struktur data aplikasi, penanganan interaksi basis data, dan logika.
 
-- Contoh: Model `User`, `FavoriteMovie` untuk mengelola data pengguna dan favorit.
+Contoh: Model `User`, `FavoriteMovie` untuk mengelola data pengguna dan favorit.
 
 - **View**: Bagian depan, tempat antarmuka pengguna dirender.
 
-- Contoh: Template blade untuk halaman seperti login, daftar film, dan detail film.
+Contoh: Template blade untuk halaman seperti login, daftar film, dan detail film.
 
 - **Controller**: Menangani permintaan dan respons, menghubungkan model dan tampilan, serta mengelola alur aplikasi.
 
