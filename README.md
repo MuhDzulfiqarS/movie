@@ -23,6 +23,7 @@ Ini adalah aplikasi daftar film yang dibuat menggunakan **Laravel 9**. Aplikasi 
 - **Bootstrap 5**: Kerangka kerja frontend untuk membangun UI responsif.
 - **AOS (Animate on Scroll)**: Untuk menambahkan animasi halus saat elemen digulir ke tampilan.
 - **Font Awesome**: Untuk menambahkan ikon seperti ikon hati untuk tombol "Tambahkan ke Favorit".
+- **SweetAlert**: Digunakan untuk menampilkan *popup alert* yang menarik dan interaktif.
 
 
 ## Arsitektur Aplikasi
@@ -35,7 +36,7 @@ Aplikasi ini mengikuti arsitektur **MVC (Model-View-Controller)**, yang merupaka
 
 - **View**: Bagian depan, tempat antarmuka pengguna dirender.
 
-   Contoh: Template blade untuk halaman seperti login, daftar film, dan detail film.
+   Contoh: Template blade untuk halaman seperti login, daftar film, detail film, dan favorit film.
 
 - **Controller**: Menangani permintaan dan respons, menghubungkan model dan tampilan, serta mengelola alur aplikasi.
 
@@ -46,7 +47,7 @@ Selain itu terdapat Arsitektur yang digunakan :
 - **Middleware** : Middleware adalah lapisan perantara yang berfungsi untuk memproses permintaan (request) yang masuk sebelum diteruskan ke aplikasi atau setelah aplikasi memproses respons. 
 
   Contoh: 
-  `CekUserLogin` : Middleware ini berfungsi untuk  memeriksa status autentikasi pengguna
+  `CekUserLogin` : Middleware ini berfungsi untuk  memeriksa status autentikasi pengguna <br>
   `SetLocale` : Middleware SetLocale bertanggung jawab untuk mengatur bahasa yang digunakan oleh aplikasi sesuai dengan preferensi pengguna atau pengaturan default
 
 - **Kernel** : Kernel di Laravel bertugas untuk mendaftarkan dan mengatur urutan eksekusi middleware. Dalam aplikasi ini menambahkan HTTP Kernel dari SetLocale
@@ -71,8 +72,10 @@ Selain itu terdapat Arsitektur yang digunakan :
 ![Halaman Login](public/assets/img/login_aldmic.png)
 
 ### 2. Halaman Daftar Film
+![Halaman Daftar Film](public/assets/img/daftar_film.png)
 
 ### 3. Halaman Detail Film
-
+![Halaman Detail Film](public/assets/img/detail_film.png)
 
 ### 4. Halaman Film Favorit
+![Halaman Film Favorit](public/assets/img/film_favorit.png)
