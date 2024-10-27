@@ -68,7 +68,7 @@ Selain itu terdapat Arsitektur yang digunakan :
 ## Screenshots
 
 ### 1. Halaman Login
- <img src="{{ asset ('assets/img/login_aldmic.png') }}">
+![Halaman Login](assets/img/login_aldmic.png)
 
 ### 2. Halaman Daftar Film
 
